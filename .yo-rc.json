@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitHubOrganization": "juliandresbv",
+    "baseName": "JHMicroservicesGatewayApplication",
+    "packageName": "io.github.juliandresbv.jhipster.mg.application",
+    "serverPort": 8087,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "hibernateCache": "hazelcast",
+    "clusteredHttpSession": "hazelcast",
+    "websocket": "spring-websocket",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "clientFramework": "angular1",
+    "jhipsterVersion": "4.11.1",
+    "packageFolder": "io/github/juliandresbv/jhipster/mg/application",
+    "jwtSecretKey": "fbfd0e94acbfe9a20c984d26723252d81a117173",
+    "jhiPrefix": "jhi"
+  }
+}
